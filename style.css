@@ -1,0 +1,111 @@
+
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Courier Prime', Courier New;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ==== Container ==== */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+/* ==== Header ==== */
+#main-header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#main-nav ul {
+    list-style: none;
+}
+
+#main-nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#main-nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==== Secciones ==== */
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.texto{
+    margin-bottom: 20px;
+}
+
+/* ==== Perfil ==== */
+.perfil-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+/* ==== Proyectos ==== */
+.proyectos {
+    margin-bottom: 30px;
+}
+
+.proyecto-galeria {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.proyecto-img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+/* ==== Footer ==== */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
